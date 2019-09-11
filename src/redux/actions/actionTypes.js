@@ -1,0 +1,5 @@
+const SHOW_HOME_VIEW = "SHOW_PRESENTATION_VIEW";
+
+export {
+    SHOW_HOME_VIEW
+}

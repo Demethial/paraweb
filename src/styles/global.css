@@ -1,0 +1,140 @@
+@import url("./home.css");
+/* Global styles */
+
+:root {
+  --primary: #00A8FF;
+  --secondary: #F2F9FF;
+  --orange: #F59320;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App-header {
+  height: 100vh;
+  width: 100vw;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  overflow: hidden;
+}
+
+.wall {
+  height: 100vh;
+  width: 100vw;
+  /* background-color: ; */
+  background-image: linear-gradient(to bottom, #f2f9ff, #f2f9ff, #00A8FF);
+  clip-path: polygon(100% 50%, 0% 100%, 100% 100%);
+  position: fixed;
+  z-index: 90;
+}
+.wall2 {
+  height: 100vh;
+  width: 100vw;
+  /* background-color: ; */
+  background-image: linear-gradient(to bottom right,  #0091da46,#f2f9ff69);
+  clip-path: polygon(90% 20%, 0% 20%, 20% 100%);
+  position: fixed;
+  z-index: 90;
+}
+
+/* --primary: #00A8FF;
+--secondary: #F2F9FF; */
+
+.landingText {
+  line-height: 30px;
+  padding: 0 0 0 4%;
+  z-index: 100;
+}
+
+.landing {
+  background-color: var(--secondary);
+  display: flex;
+  flex-direction: row-reverse;
+  color: var(--primary);
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  color: var(--secondary);
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.text {
+  padding: 0 0 0 2rem;
+}
+
+.normal {
+  flex-direction: row;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.logo {
+  height: 20rem;
+  width: 20rem;
+}
+
+.wrapper-50 {
+  width: 50rem;
+}
+
+#is {
+  background: var(--primary);
+  padding-top: 2vh;
+}
+
+@media all and (orientation: portrait) {
+  #is {
+    padding-top: 10vh;
+  }
+  .landing {
+    flex-direction: column-reverse;
+    /* margin-top: 6rem; */
+  }
+  .normal {
+    flex-direction: column;
+  }
+  .reverse {
+    flex-direction: column-reverse;
+  }
+  .wrapper-50 {
+    width: 100%;
+    height: 100vh;
+  }
+  .logo {
+    height: 15rem;
+    width: 15rem;
+  }
+  .text {
+    line-height: 30px;
+    /* padding: 0 0 0 4%; */
+  }
+
+  .wall2 {
+    height: 100vh;
+    width: 100vw;
+    /* background-color: ; */
+    background-image: linear-gradient(to bottom right,  #0091da46,#f2f9ff69);
+    clip-path: polygon(90% 20%, 0% 20%, 20% 100%);
+    position: fixed;
+    z-index: 90;
+  }
+
+  .wall {
+    background-image: linear-gradient(to bottom, #f2f9ff, #f2f9ff, #00A8FF);
+    clip-path: polygon(100% 85%, 0% 100%, 100% 100%);
+  }
+}

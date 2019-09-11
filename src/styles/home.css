@@ -1,0 +1,348 @@
+/* ------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------ */
+/* ---------------------------------- Home Responsive Classes --------------------------------------*/
+/* ------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------ */
+
+@media only screen and (max-width: 350px) {
+    .world{
+      background-image: -webkit-linear-gradient(top, #dad9d8, #e7e7e7);
+      background-image: linear-gradient(top, #dbdad8, #e7e7e7);
+      border-radius: 50%;
+      box-shadow: -10px 18px 20px 0px rgba(0, 0, 0, .5), inset 0px 4px 1px 1px white, inset 0px -3px 1px 1px rgba(204,198,197,.5);
+      width: 220px; 
+      height: 220px;
+      font-size: 18.5px;
+      
+      -webkit-transition: all 0.3s ease-in-out;       
+      -moz-transition: all 0.3s ease-in-out;       
+      -o-transition: all 0.3s ease-in-out;       
+      transition: all 0.3s ease-in-out;
+    }
+    .deliveryContainer{
+      transform: translate3d(-90px, -155px, 0px) scale(0.6);
+
+      -webkit-transition: all 1s ease-in-out;
+      -moz-transition: all 1s ease-in-out;
+      -o-transition: all 1s ease-in-out;
+      transition: all 1s ease-in-out;
+    }
+    .maintenanceContainer{
+      transform: translate3d(-90px, 160px, 0px) scale(0.6);
+
+      -webkit-transition: all 1s ease-in-out;
+      -moz-transition: all 1s ease-in-out;
+      -o-transition: all 1s ease-in-out;
+      transition: all 1s ease-in-out;
+    }
+    .rentalContainer{
+      transform: translate3d(90px, -155px, 0px) scale(0.6);
+
+      -webkit-transition: all 1s ease-in-out;
+      -moz-transition: all 1s ease-in-out;
+      -o-transition: all 1s ease-in-out;
+      transition: all 1s ease-in-out;
+    }
+    .proFormaContainer{
+      transform: translate3d(90px, 160px, 0px) scale(0.6);
+
+      -webkit-transition: all 1s ease-in-out;
+      -moz-transition: all 1s ease-in-out;
+      -o-transition: all 1s ease-in-out;
+      transition: all 1s ease-in-out;
+    }
+    
+  } 
+  @media only screen and (min-width: 350px) {
+    .world{
+      background-image: -webkit-linear-gradient(top, #dad9d8, #e7e7e7);
+      background-image: linear-gradient(top, #dbdad8, #e7e7e7);
+      border-radius: 50%;
+      box-shadow: -10px 18px 20px 0px rgba(0, 0, 0, .5), inset 0px 4px 1px 1px white, inset 0px -3px 1px 1px rgba(204,198,197,.5);
+      width: 220px; 
+      height: 220px;
+      font-size: 18.5px;
+      
+      -webkit-transition: all 0.3s ease-in-out;       
+      -moz-transition: all 0.3s ease-in-out;       
+      -o-transition: all 0.3s ease-in-out;       
+      transition: all 0.3s ease-in-out;
+    }
+    .deliveryContainer{
+      transform: translate3d(-110px, -155px, 0px) scale(0.6);
+
+      -webkit-transition: all 1s ease-in-out;
+      -moz-transition: all 1s ease-in-out;
+      -o-transition: all 1s ease-in-out;
+      transition: all 1s ease-in-out;
+    }
+    .maintenanceContainer{
+      transform: translate3d(-110px, 160px, 0px) scale(0.6);
+
+      -webkit-transition: all 1s ease-in-out;
+      -moz-transition: all 1s ease-in-out;
+      -o-transition: all 1s ease-in-out;
+      transition: all 1s ease-in-out;
+    }
+    .rentalContainer{
+      transform: translate3d(110px, -155px, 0px) scale(0.6);
+
+      -webkit-transition: all 1s ease-in-out;
+      -moz-transition: all 1s ease-in-out;
+      -o-transition: all 1s ease-in-out;
+      transition: all 1s ease-in-out;
+    }
+    .proFormaContainer{
+      transform: translate3d(110px, 160px, 0px) scale(0.6);
+
+      -webkit-transition: all 1s ease-in-out;
+      -moz-transition: all 1s ease-in-out;
+      -o-transition: all 1s ease-in-out;
+      transition: all 1s ease-in-out;
+    }
+  } 
+  @media only screen and (min-width: 400px) {
+    .world{
+      background-image: -webkit-linear-gradient(top, #dad9d8, #e7e7e7);
+      background-image: linear-gradient(top, #dbdad8, #e7e7e7);
+      border-radius: 50%;
+      box-shadow: -10px 18px 20px 0px rgba(0, 0, 0, .5), inset 0px 4px 1px 1px white, inset 0px -3px 1px 1px rgba(204,198,197,.5);
+      width: 260px; 
+      height: 260px;
+      font-size: 22px;
+      -webkit-transition: all 0.3s ease-in-out;       
+      -moz-transition: all 0.3s ease-in-out;       
+      -o-transition: all 0.3s ease-in-out;       
+      transition: all 0.3s ease-in-out;
+    }
+    .deliveryContainer{
+      transform: translate3d(-120px, -185px, 0px) scale(0.73);
+
+      -webkit-transition: all 1s ease-in-out;
+      -moz-transition: all 1s ease-in-out;
+      -o-transition: all 1s ease-in-out;
+      transition: all 1s ease-in-out;
+
+    }
+    .maintenanceContainer{
+      transform: translate3d(-120px, 190px, 0px) scale(0.73);
+
+      -webkit-transition: all 1s ease-in-out;
+      -moz-transition: all 1s ease-in-out;
+      -o-transition: all 1s ease-in-out;
+      transition: all 1s ease-in-out;
+    }
+    .rentalContainer{
+      transform: translate3d(120px, -185px, 0px) scale(0.73);
+
+      -webkit-transition: all 1s ease-in-out;
+      -moz-transition: all 1s ease-in-out;
+      -o-transition: all 1s ease-in-out;
+      transition: all 1s ease-in-out;
+    }
+    .proFormaContainer{
+      transform: translate3d(120px, 190px, 0px) scale(0.73);
+
+      -webkit-transition: all 1s ease-in-out;
+      -moz-transition: all 1s ease-in-out;
+      -o-transition: all 1s ease-in-out;
+      transition: all 1s ease-in-out;
+    }
+  } 
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .world{
+      background-image: -webkit-linear-gradient(top, #dad9d8, #e7e7e7);
+      background-image: linear-gradient(top, #dbdad8, #e7e7e7);
+      border-radius: 50%;
+      box-shadow: -10px 18px 20px 0px rgba(0, 0, 0, .5), inset 0px 4px 1px 1px white, inset 0px -3px 1px 1px rgba(204,198,197,.5);
+      width: 297.5px; 
+      height: 297.5px;
+      font-size: 26px;
+
+      -webkit-transition: all 0.3s ease-in-out;       
+      -moz-transition: all 0.3s ease-in-out;       
+      -o-transition: all 0.3s ease-in-out;       
+      transition: all 0.3s ease-in-out;
+    }
+    .deliveryContainer{
+      transform: translate3d(-187.5px, -168.75px, 0px);
+
+      -webkit-transition: all 1s ease-in-out;       
+      -moz-transition: all 1s ease-in-out;       
+      -o-transition: all 1s ease-in-out;       
+      transition: all 1s ease-in-out;
+    }
+    .maintenanceContainer{
+      transform: translate3d(-187.5px, 168.75px, 0px);
+
+      -webkit-transition: all 1s ease-in-out;
+      -moz-transition: all 1s ease-in-out;
+      -o-transition: all 1s ease-in-out;
+      transition: all 1s ease-in-out;
+    }
+    .rentalContainer{
+      transform: translate3d(187.5px, -168.75px, 0px);
+
+      -webkit-transition: all 1s ease-in-out;
+      -moz-transition: all 1s ease-in-out;
+      -o-transition: all 1s ease-in-out;
+      transition: all 1s ease-in-out;
+    }
+    .proFormaContainer{
+      transform: translate3d(187.5px, 168.75px, 0px);
+
+      -webkit-transition: all 1s ease-in-out;
+      -moz-transition: all 1s ease-in-out;
+      -o-transition: all 1s ease-in-out;
+      transition: all 1s ease-in-out;
+    }
+  }
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .world{
+      background-image: -webkit-linear-gradient(top, #dad9d8, #e7e7e7);
+      background-image: linear-gradient(top, #dbdad8, #e7e7e7);
+      border-radius: 50%;
+      box-shadow: -10px 18px 20px 0px rgba(0, 0, 0, .5), inset 0px 4px 1px 1px white, inset 0px -3px 1px 1px rgba(204,198,197,.5);
+      width: 315px; 
+      height: 315px;
+      font-size: 27px;
+
+      -webkit-transition: all 0.3s ease-in-out;       
+      -moz-transition: all 0.3s ease-in-out;       
+      -o-transition: all 0.3s ease-in-out;       
+      transition: all 0.3s ease-in-out;
+    }
+    .deliveryContainer{
+      transform: translate3d(-225px, -152.5px, 0px);
+
+      -webkit-transition: all 1s ease-in-out;       
+      -moz-transition: all 1s ease-in-out;       
+      -o-transition: all 1s ease-in-out;       
+      transition: all 1s ease-in-out;
+    }
+    .maintenanceContainer{
+      transform: translate3d(-225px, 152.5px, 0px);
+
+      -webkit-transition: all 1s ease-in-out;
+      -moz-transition: all 1s ease-in-out;
+      -o-transition: all 1s ease-in-out;
+      transition: all 1s ease-in-out;
+    }
+    .rentalContainer{
+      transform: translate3d(225px, -152.5px, 0px);
+
+      -webkit-transition: all 1s ease-in-out;
+      -moz-transition: all 1s ease-in-out;
+      -o-transition: all 1s ease-in-out;
+      transition: all 1s ease-in-out;
+    }
+    .proFormaContainer{
+      transform: translate3d(225px, 152.5px, 0px);
+
+      -webkit-transition: all 1s ease-in-out;
+      -moz-transition: all 1s ease-in-out;
+      -o-transition: all 1s ease-in-out;
+      transition: all 1s ease-in-out;
+    }
+
+  } 
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .world{
+      background-image: -webkit-linear-gradient(top, #dad9d8, #e7e7e7);
+      background-image: linear-gradient(top, #dbdad8, #e7e7e7);
+      border-radius: 50%;
+      box-shadow: -10px 18px 20px 0px rgba(0, 0, 0, .5), inset 0px 4px 1px 1px white, inset 0px -3px 1px 1px rgba(204,198,197,.5);
+      width: 332.5px; 
+      height: 332.5px;
+      font-size: 28px;
+
+      -webkit-transition: all 0.3s ease-in-out;       
+      -moz-transition: all 0.3s ease-in-out;       
+      -o-transition: all 0.3s ease-in-out;       
+      transition: all 0.3s ease-in-out;
+    }
+    .deliveryContainer{
+      transform: translate3d(-262.5px, -136.25px, 0px);
+
+      -webkit-transition: all 1s ease-in-out;       
+      -moz-transition: all 1s ease-in-out;       
+      -o-transition: all 1s ease-in-out;       
+      transition: all 1s ease-in-out;
+    }
+    .maintenanceContainer{
+      transform: translate3d(-262.5px, 136.25px, 0px);
+
+      -webkit-transition: all 1s ease-in-out;
+      -moz-transition: all 1s ease-in-out;
+      -o-transition: all 1s ease-in-out;
+      transition: all 1s ease-in-out;
+    }
+    .rentalContainer{
+      transform: translate3d(262.5px, -136.25px, 0px);
+
+      -webkit-transition: all 1s ease-in-out;
+      -moz-transition: all 1s ease-in-out;
+      -o-transition: all 1s ease-in-out;
+      transition: all 1s ease-in-out;
+    }
+    .proFormaContainer{
+      transform: translate3d(262.5px, 136.25px, 0px);
+
+      -webkit-transition: all 1s ease-in-out;
+      -moz-transition: all 1s ease-in-out;
+      -o-transition: all 1s ease-in-out;
+      transition: all 1s ease-in-out;
+    }
+  } 
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .world{
+      background-image: -webkit-linear-gradient(top, #dad9d8, #e7e7e7);
+      background-image: linear-gradient(top, #dbdad8, #e7e7e7);
+      border-radius: 50%;
+      box-shadow: -10px 18px 20px 0px rgba(0, 0, 0, .5), inset 0px 4px 1px 1px white, inset 0px -3px 1px 1px rgba(204,198,197,.5);
+      width: 350px; 
+      height: 350px;
+      font-size: 30px;
+
+      -webkit-transition: all 0.3s ease-in-out;       
+      -moz-transition: all 0.3s ease-in-out;       
+      -o-transition: all 0.3s ease-in-out;       
+      transition: all 0.3s ease-in-out;
+    }
+    .deliveryContainer{
+      transform: translate3d(-300px, -120px, 0px);
+
+      -webkit-transition: all 1s ease-in-out;       
+      -moz-transition: all 1s ease-in-out;       
+      -o-transition: all 1s ease-in-out;       
+      transition: all 1s ease-in-out;
+    }
+    .maintenanceContainer{
+      transform: translate3d(-300px, 120px, 0px);
+
+      -webkit-transition: all 1s ease-in-out;
+      -moz-transition: all 1s ease-in-out;
+      -o-transition: all 1s ease-in-out;
+      transition: all 1s ease-in-out;
+    }
+    .rentalContainer{
+      transform: translate3d(300px, -120px, 0px);
+
+      -webkit-transition: all 1s ease-in-out;
+      -moz-transition: all 1s ease-in-out;
+      -o-transition: all 1s ease-in-out;
+      transition: all 1s ease-in-out;
+    }
+    .proFormaContainer{
+      transform: translate3d(300px, 120px, 0px);
+
+      -webkit-transition: all 1s ease-in-out;
+      -moz-transition: all 1s ease-in-out;
+      -o-transition: all 1s ease-in-out;
+      transition: all 1s ease-in-out;
+    }
+  }
